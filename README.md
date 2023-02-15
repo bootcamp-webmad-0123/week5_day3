@@ -6,7 +6,8 @@
 #### Emitir peticiones GET/DELETE:
 
   ```js
-      axios.get("https://domain.com/final-endpoint")
+      axios
+        .get("https://domain.com/final-endpoint")
         .then(response => console.log(response))
         .catch(err => console.log(err))
   ```
@@ -14,7 +15,8 @@
 #### Emitir peticiones POST/PUT:
 
   ```js
-      axios.post("https://domain.com/final-endpoint", dataToSend)
+      axios
+        .post("https://domain.com/final-endpoint", dataToSend)
         .then(response => console.log(response))
         .catch(err => console.log(err))
   ```
